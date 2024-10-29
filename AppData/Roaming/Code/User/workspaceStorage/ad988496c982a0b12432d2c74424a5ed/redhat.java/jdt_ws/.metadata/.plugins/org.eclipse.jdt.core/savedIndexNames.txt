@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\tcumi\AppData\Roaming\Code\User\workspaceStorage\ad988496c982a0b12432d2c74424a5ed\redhat.java\jdt_ws\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2469308257.index
-2238567309.index

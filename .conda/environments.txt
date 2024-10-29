@@ -1,5 +1,0 @@
-C:\Users\tcumi\anaconda3
-C:\Users\tcumi\miniconda3
-C:\Users\tcumi\anaconda3\envs\dm
-C:\Users\tcumi\anaconda3\envs\haha
-C:\Users\tcumi\anaconda3\envs\qtconsole
