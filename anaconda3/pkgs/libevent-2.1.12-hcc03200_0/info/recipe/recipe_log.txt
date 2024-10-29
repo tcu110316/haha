@@ -1,0 +1,475 @@
+commit 31c05a886f70a073a2089b0ba0d2108b9f766ac4
+Author: Anthony DiPietro <51377278+adipietro18@users.noreply.github.com>
+Date:   Thu Jan 13 14:33:53 2022 -0500
+
+    Windows updates for v2.1.12 (#7)
+    
+    * Update patch for event.dll
+    
+    * Skip compiling unused items on Windows
+
+commit c512c39d3f9477e7412846ca23b88efbe9fe3624
+Merge: 2417ee9 7856f9b
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Tue Jan 11 11:18:04 2022 -0600
+
+    Merge pull request #4 from AnacondaRecipes/update_2.1.12
+    
+    Update to 2.1.12
+
+commit 7856f9b9cf66a7e67993a5f8a498c6fdc02b5781
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Sat Jan 8 22:27:38 2022 -0600
+
+    only build shared library
+
+commit b86f3b00b43279d1a4ddcba2d8e10c1de1e80e8c
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Sat Jan 8 21:54:10 2022 -0600
+
+    remove unused patch
+
+commit 4cdd7eb6911e81a2b757eab226a2202f22a08506
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Sat Jan 8 21:48:34 2022 -0600
+
+    use cmake on Unix also
+
+commit 00f0235a5d40e904e78199f345d25072d124d761
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Dec 22 09:14:48 2021 -0600
+
+    add set -ex
+
+commit 53d3d5ad0080f2a7145a27432e354bee11ecfb3e
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Tue Dec 14 22:26:39 2021 -0600
+
+    remove excess whitespace
+
+commit ef90bc3079b4f59627ca61b2297eb1abc05138c5
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Thu Dec 9 11:06:49 2021 -0600
+
+    update Python version used in test
+
+commit 5d636065be16f476e359000c8b169ca4f5bd1e63
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Dec 8 18:52:02 2021 -0600
+
+    update Python version used in test
+
+commit d5e48aafdf9552e0888bd5f9c98e7a4472b216d1
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Dec 8 18:39:39 2021 -0600
+
+    add build dependency
+
+commit 818abd538d7b166e5d0ed3ba46d36d60c2ebb438
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Dec 8 16:10:53 2021 -0600
+
+    update patch
+
+commit 15bdb34a683d667f5d1c03f2c4ff1232aede7079
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Dec 8 16:00:54 2021 -0600
+
+    remove no longer needed patch
+
+commit 70e8910169289f2708a0203bf82ceba8acadee9f
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Thu Dec 2 11:54:44 2021 +0000
+
+    DOR update to 2.1.12
+
+commit 2417ee9ec9baafa03fd8d4970e48a70c3e55d249
+Merge: 6f81a7a d466ec4
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Sep 9 15:32:26 2020 +0200
+
+    Merge pull request #19 from regro-cf-autotick-bot/bot-pr_arm_osx_hefdc92
+    
+    ARM OSX Migrator
+
+commit d466ec4857f471e209ef44a3692bddadbaa75fdd
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Sep 9 15:12:12 2020 +0200
+
+    Patch build to link correct libs
+
+commit 37489092276fedd96427c5e388709fe48e92a43f
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Sep 9 12:44:27 2020 +0200
+
+    Specify BUILD
+
+commit ac1f005ab5501ca8e5e3f1dc05587c8ee7982575
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 8 15:51:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.1, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.08.14.30.05
+
+commit ad978a442db1657b701012d3aec80a78326801ab
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 8 15:51:31 2020 +0000
+
+    migration: OSXArm
+
+commit 6f81a7a2946091579f6303b5210ff4f4b16f2955
+Merge: 67f7438 56225f2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Aug 20 21:20:46 2020 -0700
+
+    Merge pull request #18 from xhochy/cfep-18
+    
+    CFEP-18: Remove static libraries from main build
+
+commit 56225f2b3c1720189f995d111a69d9847e7bb3a1
+Author: Uwe L. Korn <uwelk@xhochy.com>
+Date:   Wed Aug 19 10:01:06 2020 +0200
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.08.17.20.01.55
+
+commit 4c12b9b27390a6792ffc063c97ce6f416a06b12e
+Author: Uwe L. Korn <uwelk@xhochy.com>
+Date:   Wed Aug 19 10:00:44 2020 +0200
+
+    CFEP-18: Remove static libraries from main build
+
+commit 67f7438907a92ad2edb45d4bcaf88266ed5a87d4
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 06:38:26 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit ed1e169155439c504bc62141e54a87a27d78123f
+Merge: 403d0ff 74aa8e8
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Tue Jun 23 09:37:28 2020 -0500
+
+    Merge pull request #17 from nehaljwani/fix-dll-location
+    
+    Fix dll location & update max_pin in run_exports
+
+commit 74aa8e850dabdeb4d3a5d0dc1020afbb25ffff4f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Jun 23 08:38:37 2020 -0400
+
+    Update max_pin to x.x.x in run_exports
+    
+    SONAME got bumped in a patch version
+    
+    xref: https://abi-laboratory.pro/index.php?view=objects_report&l=libevent&v1=2.1.10&v2=2.1.11
+
+commit c2c57948a517541f9efd140765097ed713dbe0df
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jun 22 00:00:15 2020 -0400
+
+    Update license field to comply with SPDX
+
+commit 8638278399961efb07a48ed9f0100f3dc9f26614
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jun 21 23:54:08 2020 -0400
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.16.21.09.39
+
+commit 003857c75ddef271e843cf5b4131e934c47ffcf5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jun 21 23:50:38 2020 -0400
+
+    Fix location of DLLs on Windows
+    
+    Resolves https://github.com/conda-forge/libevent-feedstock/issues/16
+
+commit 403d0fffd480d7ea225d7bf938221da06b70d392
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:46:18 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 805fa123765d6e2a544fc1439b4c895406444462
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 17:16:36 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 93d51b84f1e35421578da2101eb6939077e017d1
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:28:37 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 79d21be4ef47c96be24922d810a4b7fa77a2a6cd
+Merge: bbeb3a4 7e9e2a2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Dec 19 19:24:15 2019 -0600
+
+    Merge pull request #14 from conda-forge-linter/conda_forge_admin_13
+    
+    MNT: rerender
+
+commit 7e9e2a2b0a5d6fa1da5ef7e07819423b79d7dccc
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Dec 20 00:53:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit bbeb3a4a4353740f8ba04391fc0edf1566e7860a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:53:57 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit fa1234ad05539ff76c88004ce6e29d2664c63326
+Merge: a50a4c7 c64554f
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Jun 16 22:23:37 2019 -0400
+
+    Merge pull request #11 from xhochy/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Update to 2.1.10 and build for aarch64 and ppc64le
+
+commit c64554fdbeeb69a3b7151b86efc61f5f8edd0079
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Sun Jun 16 18:16:40 2019 +0200
+
+    Use NMake Makefiles on Windows
+
+commit 9c9cef024b2e0ae0f31bfe59e680677992b41417
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Sun Jun 16 17:34:34 2019 +0200
+
+    Patch OpenSSL detection
+
+commit 104f2290b82693041002417cb1fa33c04cc442a3
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Fri Jun 14 16:20:13 2019 +0200
+
+    Update to 2.1.10
+
+commit 8a90293f10b908bf7660524b367aa2cf6ad690b4
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Fri Jun 14 15:30:26 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit b67e4c5417bd0d648093d644deeb4a9905c06006
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Fri Jun 14 14:54:36 2019 +0200
+
+    Add make as a build dependency
+
+commit ff6352ddd544d0077071157d6407fadee48cf520
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 12 18:43:23 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.7, and conda-forge-pinning 2019.06.09
+
+commit 9218478156e8f0d843d0203611722bc2864c60ab
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 12 18:43:09 2019 +0000
+
+    bump build number
+
+commit a50a4c78ea4499fbfedf1325890eb093a2d92eeb
+Merge: 30d8c98 6a9a468
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 22:26:35 2019 -0500
+
+    Merge pull request #9 from regro-cf-autotick-bot/rebuildopenssl
+    
+    Rebuild for OpenSSL
+
+commit 6a9a46837d08f3d88c8cc8b4922f861c3221e164
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 17:56:48 2019 -0500
+
+    Update meta.yaml
+
+commit bccd9845538a849b0d8ff345124b15d14e3edc75
+Merge: 3bfa8c9 04ad455
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 17:33:27 2019 -0500
+
+    Merge remote-tracking branch 'AnacondaRecipes/master' into rebuildopenssl
+
+commit 3bfa8c9bbf62e33014c0340f91001e21d7441b93
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 17:28:38 2019 -0500
+
+    Update meta.yaml
+
+commit 0308a29b09b638add86ac5c718356590bc1ccb8c
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 17:24:42 2019 -0500
+
+    Update meta.yaml
+
+commit 1f881df312065b3d83cc23bbc0d8a093f86e6bff
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 20:29:00 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 82ee54e2b99e80fad477b081e0c8dc939b890010
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 25 20:28:50 2019 +0000
+
+    bump build number
+
+commit 04ad4553ddd7eaee9f68e9796c8233fc9c37e731
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Fri Oct 26 07:16:14 2018 -0500
+
+    remove .la from tests; filtered by default in new CB
+
+commit 30d8c98d9bd417e7edfc6d5b380535886e7e0c04
+Merge: 671c3b6 84d60d5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Sep 15 18:12:40 2018 -0400
+
+    Merge pull request #6 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 84d60d5efef9dd4f377ac727598a1c20e0d7932e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 15 16:06:44 2018 -0400
+
+    Bump to 1002
+    
+    As even the old compiler packages will be changed by the removal of the
+    libtool archive files (i.e. `*.la`) bump the build number to get new
+    packages for the old compilers as well.
+
+commit 39e6bff6342895bd1bb4d547f314a777b0e593a7
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 15 16:05:36 2018 -0400
+
+    Drop libtool archive file test
+    
+    We no longer package libtool archive files (i.e. `*.la`). Also
+    `conda-build` automatically strips them out. So drop the test for the
+    libtool archive file since it won't be included any more.
+
+commit f0419f3f403ce5045c622077e7cbb2b53342ca40
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 15:14:09 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 2d4fb9a1a42f78ddd11eee396c4b363dba161c4d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 15:13:57 2018 +0000
+
+    bump build number
+
+commit 671c3b6aafaf3af297280c09b4938bc6fd5463ce
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:38:20 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit bf9b5f405ba87a33e988084af818f098fbd3db68
+Merge: badc40a 362fd55
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 24 18:08:31 2018 -0400
+
+    Merge pull request #4 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit 362fd55b7e4a4f13946c1eafefc042b7c4bc6bd1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Jun 24 17:44:04 2018 -0400
+
+    Bump build number to 1
+    
+    Switched to new compiler syntax, `conda-build` 3, and updated pinnings.
+    So rebuild new packages given these changes.
+
+commit 3f1c9d3b4c044070c3158ef794600401c2267f6d
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 24 05:10:25 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit d43d5fdeac90428a96423a46cf4e20e382375e78
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 24 05:10:20 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit badc40a8a09b9c566a1992e06b4f0a5a9586f10a
+Merge: 1c10bff 5becd7d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Mar 23 17:43:25 2018 -0400
+
+    Merge pull request #3 from jakirkham-feedstocks/fix_for_cb2
+    
+    Fix for conda-build 2
+
+commit 5becd7d951bcae6b1f88eff3c2e20fa526dfbb87
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 10:05:14 2018 -0400
+
+    Update the test script
+    
+    As `source_files` changes how the files are copied into the testing
+    directory (namely it preserves the directory structure from source where
+    these files were copied from), update the test step to point at the
+    updated location for `.rpc`.
+
+commit d654174c66d43483283920849239186b2c892fd1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 09:35:16 2018 -0400
+
+    Use `source_files` in `test`
+    
+    Instead of using `files` and specifying where to find the source
+    directory where these files live, use `source_files` added in
+    `conda-build` 2 to specify where these files live in the source
+    directory. This is done so that the files can be copied in for testing.
+    Has no other effect on the recipe or the packages built.
+
+commit 77814eb596d695cffa2e9b9bd9c579adcf906ae1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 23 09:33:58 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 762c63d3f804b7278ac32c689b885f6631045711
+Merge: 1c10bff 6cc0e57
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Nov 23 16:36:40 2017 +0000
+
+    Merge pull request #1 from nehaljwani/2.1.8
+    
+    Bump version to 2.1.8
+
+commit 6cc0e57c0f4ff26b845ee2f2dd8ba4c59e7f9a0e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Nov 20 14:10:13 2017 -0600
+
+    Bump version to 2.1.8; Add support for Windows
+
+commit 1c10bff9f6dc9200b2ba8107104517837c002c65
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:45:34 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 96782d7382bbd447eb0978515941206a0b36ed58
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Nov 4 05:19:27 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 518fee516cb095b2bbbd5141162893520f545bd0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Nov 4 05:17:40 2016 +0000
+
+    Initial commit of the libevent feedstock.

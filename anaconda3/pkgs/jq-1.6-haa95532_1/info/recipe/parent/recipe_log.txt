@@ -1,0 +1,327 @@
+commit 755ccc21cf12f7e409bcf596b26ec1c4a4b726fe
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 4 17:24:06 2020 +0100
+
+    We use m2w64-toolchain not {{ compiler 'c' }} on Windows
+
+commit 405a1062bc0a10ea2ea90485858fe7fbef54a93a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 4 17:13:21 2020 +0100
+
+    Fix Windows build
+
+commit 9c14e3f82a0ee4ecdd1069df3d36c34a72039187
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 4 14:55:20 2020 +0100
+
+    Add Windows support (mingw-w64)
+
+commit 565450792812b1bd740e00fd6fdf100f86d2c697
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 05:23:51 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit b35678bc56ede96635fdb50d5c127deb31e8042e
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:39:46 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit a6736cd5bd6c9c5db6dac31a1bfe03689f6044d7
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 14:08:23 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 5d5177fce0d3d785a5c8c697505005dbe9b3ae86
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 20:58:13 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit eb237c13cf6b734ebf05e6e9d92872029ce6f4dc
+Merge: 8649989 64cd6ff
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Mar 4 00:03:01 2019 -0500
+
+    Merge pull request #14 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 64cd6ff63e0e2fb6b86a570a1566affcecafadb4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 3 20:27:49 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.24
+
+commit 260ec2fa076d5b24b6673cc2d86e86f1e330aeaa
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 3 20:27:38 2019 +0000
+
+    bump build number
+
+commit 86499895dbb54e06310a71dea1245bca9d22efbb
+Merge: 18a2159 ac994cb
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Dec 18 21:30:40 2018 -0500
+
+    Merge pull request #13 from notestaff/is-update-to-jq-1.6
+    
+    update to 1.6
+
+commit ac994cbe413425372fe1a3d1f3c8626342b4745e
+Author: Ilya Shlyakhter <ilya_shl@alum.mit.edu>
+Date:   Tue Dec 18 11:42:13 2018 -0500
+
+    bump oniguruma recipe
+
+commit 3b43e2a1d7fc704fa071c602e6fd17ab7e37e1f1
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Dec 18 11:41:00 2018 -0500
+
+    change build number for compiler migration
+    
+    Co-Authored-By: notestaff <ilya_shl@alum.mit.edu>
+
+commit 9868685b4ac4b90355816c4b8b24712e88b4f991
+Author: Ilya Shlyakhter <ilya_shl@alum.mit.edu>
+Date:   Tue Dec 18 11:13:26 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 02973dcca2485b083b077a29f4590c8decbef86e
+Author: Ilya Shlyakhter <ilya_shl@alum.mit.edu>
+Date:   Tue Dec 11 15:48:52 2018 -0500
+
+    update to 1.6
+
+commit 18a21599e83694a04d4c6ba342aed2a5f89f0387
+Merge: 1230d38 efd3b90
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Nov 10 18:31:38 2018 -0500
+
+    Merge pull request #12 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit efd3b90357deecb39d3588739020626427b746bf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 10 21:15:58 2018 +0000
+
+    bump build number
+
+commit 1230d38f59bbde77f5c355565983918c7c3a75a9
+Merge: ed09de2 91b72d7
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Nov 10 15:36:36 2018 -0500
+
+    Merge pull request #11 from sodre/compiler
+    
+    Use the compiler tag
+
+commit 91b72d79ab1a034a84edf8f92c1775283683ad2c
+Author: conda-forge <conda@conda-forge.github.io>
+Date:   Sat Nov 10 01:33:46 2018 +0000
+
+    use comp7
+
+commit 317d66b9e93ee206c57e073a145ec6010208fc64
+Author: conda-forge <conda@conda-forge.github.io>
+Date:   Sat Nov 10 01:33:28 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit 6ece67b28d9e7156d24087e7e1eec04c2b5daee2
+Author: conda-forge <conda@conda-forge.github.io>
+Date:   Fri Nov 9 21:21:56 2018 +0000
+
+    fix sha256 sum
+
+commit b024c54403df673e8b697e7497fafec40726ecaf
+Author: conda-forge <conda@conda-forge.github.io>
+Date:   Fri Nov 9 21:18:56 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit 5c1619b184f758af4dccb4d0dffcfd7619c9291a
+Author: conda-forge <conda@conda-forge.github.io>
+Date:   Fri Nov 9 21:11:52 2018 +0000
+
+    Add compiler tag
+
+commit ed09de2c29ad444d276306b6599af094417c8454
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:00:06 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit d2c4d96a3dd9d49d56d9b3ff32316ebceea95a02
+Merge: a544d4e b2bdc23
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Mar 16 11:24:52 2018 -0400
+
+    Merge pull request #10 from jakirkham-feedstocks/onig_6.8
+    
+    Use Oniguruma 6.8 and package license file
+
+commit b2bdc23bb5bb1b5a443a665fad16157621dda781
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 16 04:48:53 2018 -0400
+
+    Bump build number to 4
+    
+    Rebuild to package the license file and bump the oniguruma pin to 6.8.
+
+commit b09d3a8883a154d5f7daaeab137293ab45d4a5c2
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 16 04:47:18 2018 -0400
+
+    Bump oniguruma pin to 6.8
+
+commit ac320e723448ba2defb3df1486a576a44f80c2db
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 16 04:46:45 2018 -0400
+
+    Package the license file
+    
+    Include the license file in the conda packages for user consumption.
+
+commit 407ab0ec34206c150758235931af48e36efece8f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 16 04:46:25 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit a544d4e875c4918034a0e7c5473f6e8bc0e9d693
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:09:08 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit b5790506599810bc5ca07b9447649b9bb501b12e
+Merge: a845341 1945782
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 9 04:07:59 2017 -0500
+
+    Merge pull request #9 from jakirkham/onig_6.1
+    
+    Bump oniguruma to 6.1.x
+
+commit 1945782c2726e7bf8e8e14450ede5680a0594857
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Mar 7 13:29:10 2017 -0500
+
+    Bump oniguruma to 6.1.x.
+
+commit a8453418419ec269125bb27b8f938fea5e50f51e
+Merge: 7894481 59fc0b6
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Mar 5 21:53:58 2017 -0500
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 59fc0b697a00149fddcd66effc2ae9439cc17a26
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Mar 6 01:47:32 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit 7894481d29c78bf7b9bb1ca14c580d57deb77202
+Merge: ab9cf96 920ba30
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Oct 18 22:40:36 2016 -0400
+
+    Merge pull request #7 from jakirkham/re-render_master_1.3.3
+    
+    MNT: Re-rendered with conda-smithy 1.3.3 [ci skip]
+
+commit 920ba30a807290c3032b90ef7ca85477d906b6b3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Oct 18 13:44:27 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+commit ab9cf963958b12ce8c3bb865c86f83c4270b5b48
+Merge: 483831e f2098c4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jul 25 21:48:24 2016 -0400
+
+    Merge pull request #6 from jakirkham/pin_oniguruma_6_0
+    
+    Pin oniguruma to 6.0
+
+commit f2098c4fc60c3308a9ac15d706e8c93a778c84aa
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jul 25 21:35:32 2016 -0400
+
+    recipe: Pin to `oniguruma` version `6.0.*`.
+
+commit 483831e1f26e854031a7425b5caf0105325fb020
+Merge: e84747b 4c1aaa5
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jul 25 21:14:48 2016 -0400
+
+    Merge pull request #5 from jakirkham/pin_oniguruma_5_9
+    
+    Pin oniguruma to 5.9
+
+commit 4c1aaa531cd458367e7f8acc68147da669714051
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jul 25 20:59:05 2016 -0400
+
+    recipe: Pin `oniguruma` to version `5.9.*`.
+
+commit e84747b30ea884f954188ee24629da7bb0840937
+Merge: 78e3880 4fb42d2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat May 14 20:28:26 2016 -0400
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 4fb42d287ca9ca14232f09a4a235098f2cdc84d4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 00:43:28 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 78e38808a6ac7e7816a701178740d9afe92f6033
+Merge: 6b3013c 7dca72d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 17 13:09:05 2016 -0400
+
+    Merge pull request #2 from jakirkham/trigger_rebuild
+    
+    Trigger rebuild
+
+commit 7dca72dd0ab7143f4156a44ea22f88b6e556f269
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Mar 17 12:47:36 2016 -0400
+
+    Revert "recipe: Add a trivial change. [skip appveyor]"
+    
+    This reverts commit cb39a233b7f4141d95a79723d5e3a8ad870809a9.
+
+commit cb39a233b7f4141d95a79723d5e3a8ad870809a9
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Thu Mar 17 12:41:57 2016 -0400
+
+    recipe: Add a trivial change. [skip appveyor]
+
+commit 6b3013c60bb4b88a6c2aab289437d25558a7d185
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Mar 17 02:47:41 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e2078e06ab1d5f2cad30ca99570329b7501805a9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Mar 17 02:47:13 2016 +0000
+
+    Initial commit of the jq feedstock.

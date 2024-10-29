@@ -1,0 +1,574 @@
+commit 6e9210881ef3fd518ec23cd4a31656a5ea0d2bc1
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Fri Apr 9 11:49:10 2021 -0500
+
+    Rebuild with OpenMP support for Windows
+
+commit 72c9c6afcb746861a5b3c00249eaf6213de5d3e9
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Wed Feb 10 11:59:54 2021 -0600
+
+    Add `_openmp_mutex` run dependency for zfp on linux-s390x
+    
+    Reflects changes in defaults toolchains made to better match conda-forge
+
+commit d2300f060ee100fd396a3c2cecb1bc6f78b8f5ce
+Author: Anthony DiPietro <adipietro@anaconda.com>
+Date:   Thu Jan 21 09:59:10 2021 -0500
+
+    Removing explicit libgomp dependency, this is included in the compiler for defaults.
+
+commit f0c14603b5f9caa9c00e9ad3afd976a48955154e
+Merge: 0c75930 80c8cb6
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Mon Oct 12 19:28:36 2020 +0000
+
+    Rebuild for python39
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 80c8cb6c40e6f23440caec70374648c91e15a71b
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Oct 12 19:01:52 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.3, conda-smithy 3.8.2, and conda-forge-pinning 2020.10.12.17.33.53
+
+commit bdb7e7d44a38357eea8ccec47f6339b744c87841
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Oct 12 19:01:27 2020 +0000
+
+    Rebuild for python39
+
+commit 0c75930513130cb188b64ff3817b68b72e0da143
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Oct 12 12:43:04 2020 -0500
+
+    Rebuild for pypy (#11)
+    
+    * Rebuild for pypy
+    
+    * MNT: Re-rendered with conda-build 3.20.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.29.13.22.45
+    
+    Co-authored-by: Mark Harfouche <mark.harfouche@gmail.com>
+
+commit 807d795e080f9bc8f989fc56ebf72f1f106f3c34
+Merge: 3862dd0 f72745c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Sep 29 08:46:49 2020 -0400
+
+    Merge pull request #10 from ax3l/topic-macOSomp
+    
+    macOS OpenMP, SPDX, Check CMake
+
+commit f72745cdfd211263972efa3b4a0f7752ef170ce2
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Tue Sep 29 08:21:01 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.29.03.36.00
+
+commit 99449292570ea113b4bcf1956f8b0b533d70348a
+Author: Axel Huebl <axel.huebl@plasma.ninja>
+Date:   Tue Sep 29 01:14:26 2020 -0700
+
+    Minor Updates
+    
+    Adds minor updates:
+    - OpenMP support on macOS
+    - check for installed CMake files
+
+commit 3862dd09b9c2033205ca54bdb54006cc1ccd6a8b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun Aug 9 09:03:08 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 933868339338b53b4b66c9bca5f2510f2201951c
+Merge: 11d5189 da60f14
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 27 20:01:21 2020 -0400
+
+    Merge pull request #8 from regro-cf-autotick-bot/bot-pr_arch_h286062
+    
+    Arch Migrator
+
+commit da60f1410d7f54831ca0a5f994d23ef4a0a2ee4d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jun 27 23:21:33 2020 +0000
+
+    migration: ArchRebuild
+
+commit 11d5189cea6358cbde0f7b5b82f740dd1bef53e0
+Merge: f1c8021 1302e9f
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 27 20:15:21 2020 +0000
+
+    Add Aarch and PPC64le
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 1302e9ff633308afedcaec74cd2f5137a97f4252
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 27 15:54:07 2020 -0400
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.24.16.31.11
+
+commit 4dd753d862586016ddc239193940a5683b39cd0c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 27 15:53:31 2020 -0400
+
+    Add aarch
+
+commit f1c8021b65d1997b4adff64c3dad3b52f71dcadd
+Merge: 25d6882 82caf0f
+Author: Kevin Paul <kpaul@ucar.edu>
+Date:   Wed Jun 24 08:10:44 2020 -0600
+
+    Merge pull request #6 from hmaarrfk/patch-1
+    
+    Add support for C headers and libraries on all platforms
+
+commit 82caf0fe60c22cef8ad0645204703626c0f251cf
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Jun 23 21:36:43 2020 -0700
+
+    add myself as maintainer
+
+commit 559353574b6ff979f086b2e3c0be8e667dbc6a96
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 11:22:30 2020 -0400
+
+    Cleanup
+
+commit ef4d6b0c367f243c342ad3ca54411c21f1cf73f0
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 10:52:50 2020 -0400
+
+    Update
+
+commit 6d1ce2b62f503038fcd79020dab6991582c0ad64
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 10:45:20 2020 -0400
+
+    correct build scripts
+
+commit ec58e5a5d333e7a404a220f87327853085e597f2
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 10:31:01 2020 -0400
+
+    fixup windows
+
+commit ffc879cfcc427451e34fca449391babc734d41e6
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 10:16:57 2020 -0400
+
+    Update again
+
+commit ddb2ffa2baa5dfbd1fe9b884b036d0506652215f
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 10:12:02 2020 -0400
+
+    Update
+
+commit 72ae3942fca0fa7585bb2e1afa7794d9b7e15a0a
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:59:15 2020 -0400
+
+    rerender
+
+commit c03f1b5eb06c34ef378b0990df824c9e59ad7814
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:59:11 2020 -0400
+
+    Update
+
+commit aef580adc1f3e010d79fe666224093872426beec
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:54:43 2020 -0400
+
+    Update
+
+commit c0469484a4b4437c01404e1b15039a5c3ff1c6ca
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:49:08 2020 -0400
+
+    Update
+
+commit 93b97b4f1975dfca861edee92fc801be173b87e4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:43:11 2020 -0400
+
+    change main package
+
+commit e0eaf604a9bbc8222b166d75f7ef8b986845648d
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:39:26 2020 -0400
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.16.21.09.39
+
+commit c3b767beb73b6c2898d3ef8ce912fa2a4e691691
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:38:07 2020 -0400
+
+    Update
+
+commit 8b8723cb9800183e1121c2367b6b48e9fcb5a7c0
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:33:57 2020 -0400
+
+    typos
+
+commit 8407b0cdaec54c0a8dcde63ebf6738ee8699d821
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:31:34 2020 -0400
+
+    Update
+
+commit 23f9239bdf76ebea5568405fb66ff7aa79ca3bf0
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:27:02 2020 -0400
+
+    Update
+
+commit ef056fa06de8d390c860d0f7f5a5154f4b5e228f
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:23:01 2020 -0400
+
+    Update
+
+commit 155eade1211e414855e70c75c369791c990c7a05
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:16:10 2020 -0400
+
+    move;wq;wq:w
+
+commit 0dc66897e4e1b906fb970f3b411bcff701df06c4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 09:13:44 2020 -0400
+
+    typo
+
+commit cdf9cd3e3235c2955bc0882d4e38eaf9d811bf46
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:31:07 2020 -0400
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.16.21.09.39
+
+commit 8eea3005e07c58f8f1eec2d513ad53c8f75f696c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:30:12 2020 -0400
+
+    Move
+
+commit e4360d5987f42f12b3b4004ded08cce407d9b5cd
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:29:51 2020 -0400
+
+    Remove things
+
+commit 056b1259439f84c5562d1bb585876daea8ca4b7e
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:18:23 2020 -0400
+
+    fixup recipe
+
+commit 0984d389504909540f6479262e11288d17a2e208
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:16:24 2020 -0400
+
+    Fixup install in python
+
+commit 7b6c61ef2d8232020aac3b550b88990e52b7b0d4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:16:17 2020 -0400
+
+    Rerende
+
+commit dfe6a05863032feb4d53b12a2dcec46d7c682b94
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 20 08:09:38 2020 -0400
+
+    Split the package
+
+commit 69b9ec8a0edd7a44a68b89fa1fcd842d91d3af2e
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 14 03:56:05 2020 -0700
+
+    Update bld.bat
+
+commit 065841e50599bcb6aeffa74b49f7016ecc111462
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 14 03:40:58 2020 -0700
+
+    Update bld.bat
+
+commit 5910492e3c630cbf2bd6a60d6d1720a0ea59e4da
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 14 03:27:36 2020 -0700
+
+    Update meta.yaml
+
+commit 265cc46108efa81b64e5aeebad7b93ec1a1c5ba5
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 20:38:09 2020 -0700
+
+    Update build.sh
+
+commit 10c325f9f0957ea28142f36957c8ac71c8b722b4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 20:37:31 2020 -0700
+
+    Update build.sh
+
+commit f55723a48a3dc1df32a20a34d4bc97630bf23f4e
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 20:34:14 2020 -0700
+
+    Add library tests for windows
+
+commit de15a26d9423419f762ff24863b3d8b1391fa3e4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 20:49:08 2020 -0400
+
+    Update bld.bat
+
+commit 78efc3a77bebeb80a7f38a9004eebfd1a2a7d6f0
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 18:55:46 2020 -0400
+
+    Force use of virtualenv
+
+commit d1ab96dca94083f2c9f6f3b7351400dd223e616b
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 14:48:12 2020 -0700
+
+    Update build.sh
+
+commit d29f8e4e020bbd76736f561a02027f34320ae33d
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 13:20:06 2020 -0700
+
+    Update bld.bat
+
+commit 899b614ace43bc77ea6deef0473f2b4938ac8566
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 13:19:41 2020 -0700
+
+    Update build.sh
+
+commit d4c22ecca89ab5986cceb0692eeb94bedd9b5409
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 15:06:12 2020 -0400
+
+    Update cmake
+
+commit 398032dc4350879599b15da741b792e4ad16956a
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 11:14:25 2020 -0700
+
+    Update bld.bat
+
+commit ab304653b5a3448374588c40728d046405d27ec9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Jun 13 09:36:52 2020 -0700
+
+    Add back the cmake options for windows.
+
+commit b05853c3d6a87d7c285aed328e4bbb2f1d773371
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Jun 11 23:04:53 2020 -0400
+
+    Simplify recipe
+
+commit 0ccfaf4b9e6a9cb9c4cf09fa9a1ef96ce0f51249
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 14:17:43 2020 -0700
+
+    Update meta.yaml
+
+commit 7942adcdd4c5fa59e3aed45c61ac50abdf3a6ecc
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:47:19 2020 -0700
+
+    Update bld.bat
+
+commit a1410af36639c5e38fc9278ac2a3ff367d13e715
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:47:00 2020 -0700
+
+    use ninja
+
+commit a42398f564744821adf200c081b3dbe323a99c2d
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:46:13 2020 -0700
+
+    Update meta.yaml
+
+commit 62eca307634a759f41e0e1c2a632189eb748314a
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:44:33 2020 -0700
+
+    Update bld.bat
+
+commit fe934bb30c67cded8d856088a8a889d530d17ee4
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:22:06 2020 -0700
+
+    Update meta.yaml
+
+commit 0edfce989d6016e26ae826c89f3467dd14d02c15
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:21:34 2020 -0700
+
+    Update bld.bat
+
+commit 620e95672e1058bc81e07cad23e444eafa0aec0f
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:19:37 2020 -0700
+
+    Add compilation options in the linux and osx cmake
+
+commit f65197ca0152a200b11f50cbccb5e4f71ab7f8f9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Jun 7 05:16:58 2020 -0700
+
+    add support for openmp
+
+commit 25d688201b24ce812dd0be7296340837b1c798f7
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 17:32:10 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 20157a471a4425a234fbe4b34750b05094e4535a
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 11:17:02 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit d2c4c51325d9fa8226487a484545f3b947b53bb8
+Merge: 0b5c82a 0446297
+Author: Kevin Paul <kpaul@ucar.edu>
+Date:   Thu May 14 13:35:15 2020 -0600
+
+    Merge pull request #4 from ToreAad/feature/win64
+    
+    Feature/win64
+
+commit 0446297aaa5d670c9ed988d6c00585e380be0a16
+Author: Kevin Paul <kpaul@ucar.edu>
+Date:   Thu May 14 12:07:35 2020 -0600
+
+    Replacing maboualidev with ToreAad as maintainer
+
+commit 63b776276fde8e5024cc51673d7c47564c6620b2
+Author: toreaadland <tore.aadland@cegal.com>
+Date:   Wed Mar 18 13:21:15 2020 +0100
+
+    Add windows build configuration
+    
+    Dont need to add nmake as dependency
+    
+    Remove flag that crash build
+    
+    Trying to disable another flag
+    
+    Change from nmake to cmake
+    
+    Try to get some more error messages
+    
+    faffing about
+    
+    Remove all experimental changes
+    
+    try something
+    
+    Try something else
+    
+    try with ninja
+    
+    Remove bug
+    
+    last try
+    
+    Only build what is needed
+    
+    Forgot some ^
+    
+    Add cmake_prefix_path
+    
+    Try with ninja
+    
+    Make sure right python lib is used
+    
+    Build with ninja
+    
+    Use CMAKE_GENERATOR
+    
+    Did I write the option correctly?
+    
+    Did I write the option correctly?
+    
+    ...
+    
+    wrap in "
+    
+    Change generator
+    
+    Add some debug info
+    
+    Print some debug information
+    
+    Notice that windows build machine had two cmake binaries
+    
+    Try not building python
+    
+    ffaffing about
+    
+    Try witout building python
+    
+    And no shared lib
+    
+    Make cmake verbose
+    
+    Forgot to renable zfpy
+    
+    make install lowercase
+
+commit 0b5c82a5cef81689fff2b475757022128562a315
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 06:14:46 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 0078197a76621d87ceecd51467bcf9d8b3439d2d
+Merge: 3329b53 229f31d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Nov 4 07:14:48 2019 -0500
+
+    Rebuild for python38 (#1)
+    
+    Rebuild for python38
+
+commit 229f31d7af51aa3b755c8e37b8f499873ba1ebcf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Nov 4 00:29:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 3b1d965388adfd4f15a0ba17c196b44414003637
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Nov 4 00:29:20 2019 +0000
+
+    bump build number
+
+commit 3329b53ecf637b2f4d62a7bc2e8ebf6902b82763
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Oct 27 14:06:28 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit a4fb1c594ca3a0f5295dfd45f670b89a6cee95bd
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Oct 27 14:02:00 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.0.

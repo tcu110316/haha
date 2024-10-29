@@ -1,0 +1,92 @@
+commit d7af165c42b9ba7f76d2c69b77682c6f1eeae0fb
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:41:50 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit d38fc194ac3dfaccc809e710024ae07b1380638d
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 15:10:40 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 18fbc685673df5768bcfb69c13822465ae7ea473
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:14:08 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit e2971b882db0a7f3b06dfa11d14fc367c8f74d23
+Merge: 2bf0c6a 996983b
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Feb 27 13:49:42 2020 -0500
+
+    Merge pull request #3 from regro-cf-autotick-bot/bot-pr_arch
+    
+    Arch Migrator
+
+commit 996983b8ddb313d3667c25d88223e3684dd87640
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 27 18:36:45 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 91797aa1eea08510e1707b269fe240a1fa0c79c9
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Feb 27 18:36:21 2020 +0000
+
+    migration: ArchRebuild
+
+commit 2bf0c6aa0591f3291a48e399f432e95cb906e1ee
+Merge: 09254d8 bbc0d46
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Feb 27 11:14:30 2020 -0500
+
+    Merge pull request #2 from hartb/hartb-make
+    
+    Add unix build dependence on make
+
+commit bbc0d46f01c3b1f74160d1a235761ae8fd939d9c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Feb 27 15:18:44 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit c82e85fdaf9d5cf6448e0a2fb592d70c34f43dea
+Author: Brian W. Hart <hartb@us.ibm.com>
+Date:   Thu Feb 27 14:33:54 2020 +0000
+
+    Add unix build dependence on make
+    
+    The x86_64 CentOS 6 image used for build includes 'make' in the
+    default install, but other architectures (e.g. aarch64 & ppc64le)
+    use a CentOS 7 image that doesn't include make. The unix build.sh
+    requires make so will fail on those architectures, and even on x86
+    we should use conda' make rather than system's make.
+
+commit 09254d80bce95bd482981cd3a71f173d86f995f2
+Merge: 28b2eb2 a52f720
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 15:05:36 2020 -0500
+
+    Merge pull request #1 from hmaarrfk/runexports
+    
+    Runexport
+
+commit a52f7206aef871ea6cfbc68733ef28345dad88c9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 14:23:33 2020 -0500
+
+    Runexport
+
+commit 28b2eb25878c00f9f6267177f92319fc7c70441b
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Dec 16 17:50:57 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 50329c714c6a95ceb796cd5f0062ddf5e86c212f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Dec 16 17:34:56 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.5.

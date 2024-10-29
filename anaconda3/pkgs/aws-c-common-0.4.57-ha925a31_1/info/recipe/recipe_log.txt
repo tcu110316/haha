@@ -1,0 +1,101 @@
+commit 44ac86766f7df6eb438fae8a8d636f2b453fee98
+Merge: a63f391 9acd7e8
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Sep 23 14:57:19 2020 +0000
+
+    Remove hardcoded SDK path
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 9acd7e890d9a96282e89ef796d04c8311be7530a
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Sep 23 16:43:47 2020 +0200
+
+    Remove hardcoded SDK path
+
+commit a63f3913b594b359c3ab29fc840fe8520418ddf0
+Merge: 03bf128 cb5a617
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Thu Sep 17 08:05:28 2020 +0200
+
+    Merge pull request #3 from regro-cf-autotick-bot/0.4.57_hba88dd
+    
+    aws-c-common v0.4.57
+
+commit cb5a6177062b67ceb50d95fcfe0c51400f846efc
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Sep 17 07:21:04 2020 +0200
+
+    Remove patch
+
+commit 9b6f2597305fbf533cac646f029142f0b72bca5d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 16 20:55:48 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.16.18.10.04
+
+commit 12185dfb6070dea6c75533d73165257b5beed56a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 16 20:55:33 2020 +0000
+
+    updated v0.4.57
+
+commit 03bf12808ae9194900c0ba624b767ef08c06e1fb
+Merge: 865c4a0 29700b4
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Sep 16 20:00:23 2020 +0200
+
+    Merge pull request #2 from xhochy/support-asm-math-arm64
+    
+    Support ASM math on aarch64
+
+commit 29700b4cedd0adf59064730f177d304ff86bfc9b
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Sep 16 19:26:34 2020 +0200
+
+    Support ASM math on aarch64
+
+commit 865c4a01e9d0349459d0eca385b857d6c7ae939b
+Merge: 5d2f831 d01619e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Thu Sep 10 15:30:19 2020 +0000
+
+    Build for all arches
+    
+    automerged PR by conda-forge/automerge-action
+
+commit d01619e7cf80634e15b861b192653ee7789d1dfe
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Sep 10 17:15:02 2020 +0200
+
+    Don't use Werror
+
+commit dd86306ff51d03c6156c81266224d147748863f0
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Sep 10 16:00:09 2020 +0200
+
+    MNT: Re-rendered with conda-build 3.20.1, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.10.13.34.01
+
+commit 5d2d7f3d49e548c29217117e93617595cae2d601
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Sep 10 15:59:35 2020 +0200
+
+    Build on all arches
+
+commit 5d2f831727e614661910442ccdaf27e8efd350ba
+Author: cf-blacksmithy <41433396+cf-blacksmithy@users.noreply.github.com>
+Date:   Thu Sep 10 12:09:03 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit a680556b7629d2f286b70e21ca9c100524b5c685
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Sep 10 09:30:58 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0ff1c2ae345563ac1e66e4a408a29beb9b9e486a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Sep 10 09:23:39 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.7.10.

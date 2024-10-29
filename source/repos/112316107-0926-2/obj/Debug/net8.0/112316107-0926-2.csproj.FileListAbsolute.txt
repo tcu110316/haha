@@ -1,0 +1,14 @@
+C:\Users\tcumi\source\repos\112316107-0926-2\bin\Debug\net8.0\112316107-0926-2.exe
+C:\Users\tcumi\source\repos\112316107-0926-2\bin\Debug\net8.0\112316107-0926-2.deps.json
+C:\Users\tcumi\source\repos\112316107-0926-2\bin\Debug\net8.0\112316107-0926-2.runtimeconfig.json
+C:\Users\tcumi\source\repos\112316107-0926-2\bin\Debug\net8.0\112316107-0926-2.dll
+C:\Users\tcumi\source\repos\112316107-0926-2\bin\Debug\net8.0\112316107-0926-2.pdb
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.AssemblyInfoInputs.cache
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.AssemblyInfo.cs
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.csproj.CoreCompileInputs.cache
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.dll
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\refint\112316107-0926-2.dll
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.pdb
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\112316107-0926-2.genruntimeconfig.cache
+C:\Users\tcumi\source\repos\112316107-0926-2\obj\Debug\net8.0\ref\112316107-0926-2.dll

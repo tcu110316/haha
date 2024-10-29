@@ -1,0 +1,11 @@
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE
+C:\Program Files (x86)\Android\android-sdk\emulator\emulator.EXE
+8
+C:\Program Files (x86)\Android\android-sdk\emulator\emulator.EXE
+-netfast
+-accel
+on
+-avd
+phone_l-dpi_2_7in_1_-_api_33
+-prop
+monodroid.avdname=phone_l-dpi_2_7in_1_-_api_33

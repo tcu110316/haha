@@ -1,0 +1,77 @@
+2023-09-06-06:53:02.729 下午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-09-06-06:53:02.736 下午 StagedAppDirectory does not exist. Using Current
+2023-09-06-06:53:02.743 下午 There is no version.txt. Falling back to getting version from folder name
+2023-09-06-06:53:02.749 下午 Version: 1.0.21105.1; addinPackageDirectory: 1.0.21105.1
+2023-09-06-06:53:02.755 下午 .dead exists: False
+2023-09-06-06:53:02.762 下午 before cleanup unused versions
+2023-09-06-06:53:02.815 下午 Addin directory exists. Copy was successful
+2023-09-06-06:53:02.823 下午 COM registration. Regsvr Path: C:\Windows\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\tcumi\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.21105.1\x64\Microsoft.Teams.AddinLoader.dll"
+2023-09-06-06:53:03.033 下午 Version 1.0.21105.1 of the meeting add-in is now installed
+2023-09-07-02:59:46.596 下午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-09-07-02:59:46.596 下午 There is no version.txt. Falling back to getting version from folder name
+2023-09-07-02:59:46.596 下午 Version: 1.0.23199.2; addinPackageDirectory: 1.0.23199.2
+2023-09-07-02:59:46.597 下午 .dead exists: False
+2023-09-07-02:59:46.597 下午 before cleanup unused versions
+2023-09-07-02:59:46.629 下午 Addin directory exists. Copy was successful
+2023-09-07-02:59:46.630 下午 COM registration. Regsvr Path: C:\Windows\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\tcumi\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.23199.2\x64\Microsoft.Teams.AddinLoader.dll"
+2023-09-07-02:59:47.069 下午 Version 1.0.23199.2 of the meeting add-in is now installed
+2023-09-22-09:29:21.878 上午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-09-22-09:29:21.879 上午 There is no version.txt. Falling back to getting version from folder name
+2023-09-22-09:29:21.879 上午 Version: 1.0.23213.1; addinPackageDirectory: 1.0.23213.1
+2023-09-22-09:29:21.879 上午 .dead exists: False
+2023-09-22-09:29:21.880 上午 before cleanup unused versions
+2023-09-22-09:29:21.959 上午 Addin directory exists. Copy was successful
+2023-09-22-09:29:21.959 上午 COM registration. Regsvr Path: C:\Windows\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\tcumi\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.23213.1\x64\Microsoft.Teams.AddinLoader.dll"
+2023-09-22-09:29:22.173 上午 Version 1.0.23213.1 of the meeting add-in is now installed
+2023-10-06-09:40:16.016 上午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-10-06-09:40:16.017 上午 There is no version.txt. Falling back to getting version from folder name
+2023-10-06-09:40:16.017 上午 Version: 1.0.23241.2; addinPackageDirectory: 1.0.23241.2
+2023-10-06-09:40:16.017 上午 .dead exists: False
+2023-10-06-09:40:16.018 上午 before cleanup unused versions
+2023-10-06-09:40:16.049 上午 Addin directory exists. Copy was successful
+2023-10-06-09:40:16.050 上午 COM registration. Regsvr Path: C:\Windows\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\tcumi\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.23241.2\x64\Microsoft.Teams.AddinLoader.dll"
+2023-10-06-09:40:16.247 上午 Version 1.0.23241.2 of the meeting add-in is now installed
+2023-10-12-08:35:37.138 上午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-10-12-08:35:37.139 上午 There is no version.txt. Falling back to getting version from folder name
+2023-10-12-08:35:37.139 上午 Version: 1.0.23241.2; addinPackageDirectory: 1.0.23241.2
+2023-10-12-08:35:37.139 上午 Version 1.0.23241.2 of the meeting add-in is already installed
+2023-11-02-08:34:47.218 上午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-11-02-08:34:47.218 上午 There is no version.txt. Falling back to getting version from folder name
+2023-11-02-08:34:47.219 上午 Version: 1.0.23270.2; addinPackageDirectory: 1.0.23270.2
+2023-11-02-08:34:47.220 上午 .dead exists: False
+2023-11-02-08:34:47.220 上午 before cleanup unused versions
+2023-11-02-08:34:47.253 上午 Addin directory exists. Copy was successful
+2023-11-02-08:34:47.254 上午 COM registration. Regsvr Path: C:\Windows\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\tcumi\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.23270.2\x64\Microsoft.Teams.AddinLoader.dll"
+2023-11-02-08:34:47.483 上午 Version 1.0.23270.2 of the meeting add-in is now installed
+2023-11-09-08:30:04.571 上午 System.ArgumentException: 由於子機碼不存在，所以無法刪除子機碼樹狀目錄。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   於 Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   於 Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-11-09-08:30:04.572 上午 There is no version.txt. Falling back to getting version from folder name
+2023-11-09-08:30:04.572 上午 Version: 1.0.23270.2; addinPackageDirectory: 1.0.23270.2
+2023-11-09-08:30:04.572 上午 Version 1.0.23270.2 of the meeting add-in is already installed

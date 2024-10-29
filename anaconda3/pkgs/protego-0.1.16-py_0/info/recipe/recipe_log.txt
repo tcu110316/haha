@@ -1,0 +1,35 @@
+commit 04905d6107169afe4b043f7a46310387802b867b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 13:07:09 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit bb6a626d2173e713fff0d7c2a60a83a134c18c72
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 12:08:12 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 885e000382538e222a78ace730b65c9399862bb4
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Thu May 21 19:27:18 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit de0af70ad9af7abfb590f3c7bfaaddf9092b1bb4
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:12:53 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit d417fffdfd60794ee1b296a136b1a1ae7eb976c2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Mar 3 15:24:00 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit d45899737d4e3a0cdc0052e10e8a713cec39071a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Mar 3 15:16:34 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.9.

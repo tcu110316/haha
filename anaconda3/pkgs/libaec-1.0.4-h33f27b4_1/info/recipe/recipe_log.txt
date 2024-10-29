@@ -1,0 +1,185 @@
+commit a27e920f37ed5b2cacd01a2544f5247fd90391ea
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:45:29 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 396c1f508ac44ed12f509c87ba28b1e5cc8b0288
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 16:50:41 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit ca3727389225124ce69a8d6b2539f4da6202155d
+Merge: 88036ec 60cb5ed
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Mon Mar 16 17:34:35 2020 +0000
+
+    Windows build
+    
+    automerged PR by regro-cf-autotick-bot-action
+
+commit 60cb5eda6f62c1265afda93fc0fd9f96f3c53618
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Mar 16 13:25:33 2020 -0400
+
+    Add myself as a maintainer
+
+commit b0082962128478f7b753c6b2162d0832a3ece650
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Mar 16 13:17:29 2020 -0400
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.14
+
+commit bcac4d62c8e55029328af022ee7476e2796e8584
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Mar 16 13:16:35 2020 -0400
+
+    Cleanup build
+
+commit c865dd1afce5ebd8e8ea5a6a21b420663c933476
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 18:20:16 2020 -0500
+
+    Update bld.bat
+
+commit 227faa7f5ebd169e270dfb2df8eac175a7846051
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 18:17:20 2020 -0500
+
+    skip windows 2008
+
+commit aa29e2a69cf9878354709b07cb93f6bf3cee0f1c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 17:52:08 2020 -0500
+
+    Remove calling aec --version becaue it exists 1
+
+commit 13cee56e6dd3978faac72646e5ede260274b59e3
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 17:50:17 2020 -0500
+
+    lint.
+
+commit cba5aaf184bff70562eb6fc1c6b1548c80638186
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Jan 1 17:48:49 2020 -0500
+
+    Build for windows.
+
+commit 88036ec3120be400fe46b997332a8e3da43f3539
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:26:08 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 945733dbe75cabcc2442981abc86e7bce8a78bfc
+Merge: 041560b d79bc30
+Author: Kai Mühlbauer <kmuehlbauer@users.noreply.github.com>
+Date:   Wed Feb 26 15:04:57 2020 +0100
+
+    Merge pull request #7 from hartb/hartb-migrate
+    
+    fix failure in migration build
+
+commit d79bc3074ac1315d9eec6e5d6fa3457f534ee01c
+Author: Brian W. Hart <hartb@us.ibm.com>
+Date:   Mon Feb 24 15:32:51 2020 -0600
+
+    add make (used in build.sh) as a build dependency
+
+commit 5df915ec68cb08729d0d6797f558d96f22c1a486
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 24 19:45:04 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 44145f47287626bccf176fd545fe3ebcc2341ad5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 24 19:44:35 2020 +0000
+
+    migration: ArchRebuild
+
+commit 041560b93919f297991aac6f1431aecbd76cc3b7
+Merge: 8912c35 31f7ddb
+Author: Kai Mühlbauer <kmuehlbauer@users.noreply.github.com>
+Date:   Mon Feb 11 19:49:10 2019 +0100
+
+    Merge pull request #4 from regro-cf-autotick-bot/1.0.4
+    
+    libaec v1.0.4
+
+commit 31f7ddb34296b22f50685bffdb03f8bc484eab23
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 11 17:15:26 2019 +0000
+
+    updated v1.0.4
+
+commit 8912c35de061df9aca05ff85770ba40ca87a63ae
+Merge: dc10fd2 c081f88
+Author: Kai Mühlbauer <kmuehlbauer@users.noreply.github.com>
+Date:   Tue Feb 5 08:33:32 2019 +0100
+
+    Merge pull request #3 from regro-cf-autotick-bot/1.0.3
+    
+    libaec v1.0.3
+
+commit c081f8855d982d92f5edaaa68588a449fdca4a9b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 4 13:12:34 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.12, and conda-forge-pinning 2019.01.29
+
+commit 6e0e50fbb8a5f744db89c3f1606b9ea7b90b3eaf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 4 13:12:23 2019 +0000
+
+    updated v1.0.3
+
+commit dc10fd23cd51acea5bc0ebca8fc46b832df5fa29
+Merge: cc86ab9 9a3f140
+Author: Kai Mühlbauer <kmuehlbauer@users.noreply.github.com>
+Date:   Sun Dec 2 16:18:23 2018 +0100
+
+    Merge pull request #2 from kmuehlbauer/kmuehlbauer-patch-1
+    
+    Fix version
+
+commit 9a3f140b18e17f81fcc886cb2f8f8006e73ac096
+Author: Kai Mühlbauer <kmuehlbauer@users.noreply.github.com>
+Date:   Sun Dec 2 15:31:55 2018 +0100
+
+    Fix version
+
+commit cc86ab98f57a7d895033109ba6d4515848adcb66
+Merge: 6066155 0e1e508
+Author: Kai Mühlbauer <kmuehlbauer@users.noreply.github.com>
+Date:   Sun Dec 2 11:51:10 2018 +0100
+
+    Merge pull request #1 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 0e1e5088414bdc56371d928a6d4b4a4764eedf5b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Dec 2 10:13:58 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.27
+
+commit 4d233051938a7d56a216ab12e77b7b4897ee9e53
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Dec 2 10:13:54 2018 +0000
+
+    bump build number
+
+commit 60661559710837ade6127f3835080aca1b0dbfef
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Dec 2 09:46:07 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 79776a8687bcf15ff901903d7419ba769e3afaf5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Dec 2 09:41:54 2018 +0000
+
+    Initial feedstock commit with conda-smithy 3.1.12.

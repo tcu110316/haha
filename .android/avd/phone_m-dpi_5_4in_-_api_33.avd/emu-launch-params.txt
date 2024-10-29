@@ -1,0 +1,12 @@
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE
+C:\Program Files (x86)\Android\android-sdk\emulator\emulator.exe
+9
+C:\Program Files (x86)\Android\android-sdk\emulator\emulator.exe
+-netfast
+-verbose
+-avd
+phone_m-dpi_5_4in_-_api_33
+-prop
+monodroid.avdname=phone_m-dpi_5_4in_-_api_33
+-prop
+emu.uuid=64228c42-3fca-4284-91c7-cfd35d2f56d8

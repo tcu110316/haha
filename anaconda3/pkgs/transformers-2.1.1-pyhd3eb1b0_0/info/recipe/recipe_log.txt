@@ -1,0 +1,47 @@
+commit 55cfdbc845c377c36897f840b72c94fa944d1751
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 08:03:31 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 2742aa47e5164de5d07d1e3e42b63f5813c17eb9
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 10:29:31 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 486f30d77786a3d94d879630da64a51138e77208
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 01:51:52 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit ed9c5ac6a93c8208ca86824c95734e9758f7b9c9
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 13:25:39 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit ea43b37889fe75cdb3dd6f201deb57f49392b97d
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 05:35:51 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit af55868b30a48c53a1ccfc90d77782dda0e8bb52
+Author: roccqqck <34628766+roccqqck@users.noreply.github.com>
+Date:   Tue Oct 15 01:32:23 2019 +0800
+
+    empty commit to trigger auto upload
+
+commit 8245c131d24394f4cad60d06b43314dcf84e655a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Oct 13 15:02:52 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit bd3e0b273cff7c15f1f7052e9488747a93783130
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Oct 13 15:00:07 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.0.

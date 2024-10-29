@@ -1,0 +1,664 @@
+commit d847f642a9c4de42872f127c2ba764fdaf2d3da8
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Mon Jun 20 15:06:57 2022 +0300
+
+    ignore_run_exports: libgfortran5 on osx
+
+commit 1d032306baefa0576df1037e882eee7f3e97771c
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Mon Jun 20 14:58:47 2022 +0300
+
+    Disable downstream gdal
+
+commit 7a4eafb3de6cf36e918cb9b595b387f5b01e493c
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Mon Jun 20 14:56:17 2022 +0300
+
+    Update meta data
+
+commit b136961978d42c74b6b5fd678c2b2c7cf1a8cbd5
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Mon Jun 20 14:47:57 2022 +0300
+
+    Bump build no
+
+commit 6d83c60d66b059373a1d8f1618da1b468b68612b
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Mon Jan 31 13:50:08 2022 +0100
+
+    add missing build dependency patch
+
+commit d2b9625e7531c9a9155aa3a3ed3b82482a134443
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Fri Aug 13 15:26:43 2021 +0200
+
+    add support for osx-arm64
+
+commit 8a051687e667e3128500e2e2c4dceba1525861b9
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Wed Jun 10 11:52:25 2020 +0200
+
+    Disable downstream gdal test for nont x64 linux
+
+commit 88ea944cb5c9b261a67aeac2cc91965fea118142
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri Aug 7 20:28:13 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 6ef41f7ae741325c18d8dcb90e20a9259bec9255
+Merge: 2cdde6e c15f53d
+Author: Peter Williams <peter@newton.cx>
+Date:   Thu Jul 23 09:45:19 2020 -0400
+
+    Merge pull request #27 from zonca/lcurl_pkg-config
+    
+    patch to add -lcurl to cfitsio.pc
+
+commit c15f53d064c5c638a538c2f1f9a9a1339d18ba83
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Thu Jul 23 06:18:40 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.22.15.50.26
+
+commit d5dbe5fe46480b4a582d2345d41eb53791402539
+Author: Andrea Zonca <code@andreazonca.com>
+Date:   Wed Jul 22 23:15:19 2020 -0700
+
+    increase build number
+
+commit 427a7585def3a75491d61b8d0359be490ee68501
+Author: Andrea Zonca <code@andreazonca.com>
+Date:   Wed Jul 22 22:52:14 2020 -0700
+
+    fix: patch to add -lcurl to cfitsio.pc
+
+commit 2cdde6e947348278cdf4c4e7d781addb97ea563d
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 06:51:25 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit d4d44b95b46a528c9d1bb5910a3505e8e05e174d
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri May 15 21:39:47 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit f421c61b0f09e4512a3ba17573574453a87f80aa
+Merge: 793c24e 1031ca7
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 20:57:03 2020 -0500
+
+    Merge pull request #26 from beckermr/beckermr-patch-1
+    
+    WIP reunvendor zlib
+
+commit 1031ca75c74075d54ed860f5e1f163efe79adf34
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 20:41:53 2020 -0500
+
+    Update recipe/meta.yaml
+    
+    Co-Authored-By: Isuru Fernando <isuruf@gmail.com>
+
+commit 5d7d6b5566f14d807491413ea0680f53c3746641
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 20:28:53 2020 -0500
+
+    Update build.sh
+
+commit ff30c70e4d8fc4f7984b2d7443d4a9f9e59f2b86
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 19:43:16 2020 -0500
+
+    Update recipe/meta.yaml
+    
+    Co-Authored-By: Brian Van Klaveren <brianv0@users.noreply.github.com>
+
+commit 5f1afa4432e0c5a6791249fd837216d6931a4cef
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 14:11:24 2020 -0500
+
+    check that it fails
+
+commit 28c54a19cfa162660d4366447227d9beb9ee4e7d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 14:01:40 2020 -0500
+
+    Check gdal downstream
+
+commit 484a1f696b3178e35ac746f4c18e42eea99a2c03
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 14:00:41 2020 -0500
+
+    Check re-export
+
+commit 1e57e6e8e145ae0dad471076f5b38f103f3ac489
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 13:51:04 2020 -0500
+
+    nm -D
+
+commit 5c678606c13db81eaa205cc71b4d9627da82e95c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 13:44:15 2020 -0500
+
+    prepend re-exporting libz.dylib
+
+commit ee4ea022fd54fbe60e4507d86191a0f1c33404d0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 13:43:46 2020 -0500
+
+    Add a variable to prepend to libs
+
+commit 68642d296de224d8eb51feb8bcb1159c8e0d617b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 13:19:59 2020 -0500
+
+    Try again
+
+commit 8e69def63a1b9738cc2e1c0cba0ec06048394254
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 29 13:00:55 2020 -0500
+
+    Add LIBS
+
+commit c2471740f8a8a1537b9a9c14e6237b996b79abbc
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 12:04:21 2020 -0500
+
+    Update build.sh
+
+commit 006399515800b250977c74717c8f741233a1b62d
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 11:59:35 2020 -0500
+
+    Update build.sh
+
+commit 33bffeba0cd543ab74b5f8c7d136da2ed0949f85
+Merge: 31c0032 793c24e
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 11:54:24 2020 -0500
+
+    Merge branch 'master' into beckermr-patch-1
+
+commit 31c0032fcbf98a815fed930013ed407e8c971e35
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 11:53:35 2020 -0500
+
+    ENH reunvendor zlib
+
+commit 793c24e6f8981ba8af2d7f8d6d05b797285cc911
+Merge: a9401dd 1b0f8e2
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 09:22:40 2020 -0500
+
+    Merge pull request #24 from beckermr/beckermr-patch-1
+    
+    BUG reunvendor zlib
+
+commit 1b0f8e2be41a745ef1bc1e02011ea00a55961213
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Apr 29 14:03:54 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.04.28.13.02.26
+
+commit f56b21b878369dce237ef809dbf814b91310c60b
+Author: Matthew R Becker <beckermr@users.noreply.github.com>
+Date:   Wed Apr 29 09:01:39 2020 -0500
+
+    BUG reunvendor zlib
+
+commit a9401dd610235390ef045349eb543e51187d9187
+Merge: 0c229c8 f1c746a
+Author: Matthew R. Becker <beckermr@users.noreply.github.com>
+Date:   Mon Apr 27 08:01:11 2020 -0500
+
+    Merge pull request #22 from brianv0/unvendor_zlib
+    
+    Unvendor zlib
+
+commit f1c746af7e5da5056ae4cd5731c7b3b59347e202
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Mon Apr 27 12:51:24 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.17, and conda-forge-pinning 2020.04.26.19.17.14
+
+commit 1d91bed9baea3a12bc26f1fe913476fc9f1d18f2
+Author: Brian Van Klaveren <bvan@slac.stanford.edu>
+Date:   Sun Apr 26 21:25:18 2020 -0700
+
+    Unvendor zlib
+
+commit 0c229c866f60b21cf10f19a632d1aab057fecde2
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 17:38:27 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 119755a0a1787b7305d65108b8046e18030517c5
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:56:57 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 3f80d798a473ae09b942ee580135bd2574d15d5f
+Merge: c5a0831 173d8b0
+Author: Teake Nutma <t.a.nutma@rug.nl>
+Date:   Thu Aug 29 14:51:24 2019 +0200
+
+    Merge pull request #21 from chrisburr/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 173d8b0b7e1c97c82312e14e69a0c223297e6f5a
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Aug 29 10:03:39 2019 +0200
+
+    Update recipe/meta.yaml
+    
+    Co-Authored-By: Teake Nutma <teake.nutma@gmail.com>
+
+commit 93a4167a9fbff738b2723a8ca6fa5edf912bf80d
+Author: Chris Burr <christopher.burr@cern.ch>
+Date:   Wed Aug 28 19:07:39 2019 +0200
+
+    Add make to build dependencies
+
+commit 2cb97783ca6160161bb7556030de70ef6888e54e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 28 16:33:22 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.22
+
+commit a2caa30e1380ae08af8b35fe5a698885cd073d52
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Aug 28 16:33:07 2019 +0000
+
+    bump build number
+
+commit c5a0831fd82de4b3a2f534cc62528ca0ce2a2662
+Merge: 0f4db08 ed1e9fb
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Aug 16 16:00:34 2019 -0400
+
+    Merge pull request #19 from regro-cf-autotick-bot/rebuildfortran_compiler_stub-70
+    
+    Rebuild for gfortran 7 for OSX
+
+commit ed1e9fbb857bd6325452ed3cf33b5335bc9e0580
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 16 19:33:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.12
+
+commit fe32952473ae2162ef1b46ad91702f5b9c4af50b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Aug 16 19:33:27 2019 +0000
+
+    Rebuild for gfortran 7 for OSX
+
+commit 0f4db08c62d2539636497f3dbccecdcf2ecd91aa
+Merge: 98f51b1 ab79ae1
+Author: Teake Nutma <t.a.nutma@rug.nl>
+Date:   Wed Jul 10 20:55:21 2019 +0200
+
+    Merge pull request #18 from ocefpaf/add_run_exports
+    
+    add run_exports
+
+commit ab79ae1b5e6d396ded1afa9c29e8e12f5721d45b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Jul 10 11:23:53 2019 -0500
+
+    add run_exports
+
+commit 98f51b1f38bb4e8cf7ae2a39bd14480a0026a9e5
+Merge: b0fb11c 93d4ec4
+Author: Peter Williams <peter@newton.cx>
+Date:   Wed Jul 10 10:09:31 2019 -0400
+
+    Merge pull request #17 from teake/update-to-3470
+    
+    Update to 3.47, enable bzip2 support for non win, expand tests
+
+commit 93d4ec4a389ff18b88f26c0c04b19a1d83a48c8c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Jul 10 13:27:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.04
+
+commit 1f69b754b53b5a118a01cbd12045113822e3b18b
+Author: Teake Nutma <t.a.nutma@rug.nl>
+Date:   Wed Jul 10 13:59:42 2019 +0200
+
+    Update to 3.47, enable bzip2 support for non win, expand tests
+
+commit b0fb11c3b6c655adfec97fc3716485803a633433
+Merge: e24cff0 7c249a5
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon May 13 08:43:04 2019 -0400
+
+    Merge pull request #16 from gillins/master
+    
+    Add Windows support
+
+commit 7c249a518fc495ae6db0747d25fcfde0995e8f4a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 13 07:28:12 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit 4e1d8e88f5d292e0edeec862814a09423746d7b4
+Merge: c9f17a8 9783691
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Mon May 13 17:27:30 2019 +1000
+
+    Merge branch 'master' of https://github.com/gillins/cfitsio-feedstock
+
+commit c9f17a85e1af094a0462dc7cadab6ca14c40cc0f
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Mon May 13 17:27:13 2019 +1000
+
+    skip VS2008
+
+commit 97836919e0b1483cca29e56687812ff8fe341959
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 13 07:13:46 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.11
+
+commit 4a0687fc8d06572887a5c7ada8f13361c36c3887
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Mon May 13 17:09:20 2019 +1000
+
+    add tests and move files to correct locations
+
+commit 422b7cfaaaa4d00cfe43caf36fc883c4a44c8df0
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Mon May 13 16:22:13 2019 +1000
+
+    add Windows support
+
+commit e24cff0b6dd7c2a3ecef6294888cb57d2fe4c521
+Merge: 12ff7f8 b0fdb4a
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Oct 9 06:44:39 2018 -0700
+
+    Merge pull request #15 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit b0fdb4af7da260c0285ea335a15e4a9610c15526
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Oct 9 09:11:02 2018 -0400
+
+    Need to bump the build number again to replace the existing package.
+    
+    Closes #13.
+
+commit ac81fc6eb3c02f2ff537dff175f292cf5fb09104
+Author: Yu Feng <rainwoodman@gmail.com>
+Date:   Mon Oct 8 11:44:05 2018 -0700
+
+    Do not remove the .a file.
+    
+    See #13.
+    
+    The .a file shall be preserved for there are downstream (healpix / fortran) dependencies that cannot be built cleanly without it.
+
+commit 8288629d61d47b16367c8cf6085ba3b17c6ebd9a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 9 13:04:14 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.08
+
+commit cf7863443eee6767d933ab23d580a52caa3a7d5e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Oct 9 13:04:10 2018 +0000
+
+    bump build number
+
+commit 12ff7f822f87a31ce4df633517931aea8543fd6d
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:29:26 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 67f3fe5fd3bc9290e9ca6a6b9928250925d86a02
+Merge: 04f4ccd ef97892
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Jun 19 11:18:50 2018 -0400
+
+    Merge pull request #12 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit ef978926d69019e2ee6c1a340760ccf0235ecba1
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 18 23:32:10 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.05.22
+
+commit 92e70d9c0e360054c598a7eec365682a00d0c01a
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 18 23:32:05 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 04f4ccd4ee1cc50d25d35c0c89aad6d34930fe48
+Merge: bde406a 603407e
+Author: Peter Williams <peter@newton.cx>
+Date:   Wed Mar 7 21:40:02 2018 -0500
+
+    Merge pull request #10 from pkgw/checksum
+    
+    recipe/meta.yaml: update checksum (?!)
+
+commit 603407eb8f0e285b62d02cba3ff21bdcce65a9a2
+Author: Peter Williams <peter@newton.cx>
+Date:   Wed Mar 7 20:40:31 2018 -0500
+
+    recipe/meta.yaml: change SHA256 digest (?!)
+    
+    As detailed in a comment in the meta.yaml file, conda-build finds a different
+    value for the file checksum than I do manually. But I get the same value in an
+    anvil container on my laptop as the CI systems do, so at least its weirdness
+    seems to be self-consistent.
+
+commit bde406a1148ac47ba9ab08d47436a5afd03c25d2
+Merge: c53572e 9f8dd17
+Author: Peter Williams <peter@newton.cx>
+Date:   Wed Mar 7 19:10:48 2018 -0500
+
+    Merge pull request #8 from dougalsutherland/3.430
+    
+    bump to 3.430
+
+commit 9f8dd172cc92960797ad5ed993295b8bcbda9ed7
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Mar 4 14:17:37 2018 +0000
+
+    bump to 3.430
+
+commit c53572e85104c269773c00a7ec2188067a93932d
+Merge: 5b82d15 4861490
+Author: Peter Williams <peter@newton.cx>
+Date:   Sun Mar 4 11:38:20 2018 -0500
+
+    Merge pull request #7 from dougalsutherland/3.420
+    
+    update to 3.420
+
+commit 4861490afc0242f72c4d730e6c30fc46973d8ff1
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Mar 4 14:03:12 2018 +0000
+
+    build 64bit-only on mac
+
+commit fa00721f9c2794181989190bef7337d57980daf7
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Mar 4 13:41:49 2018 +0000
+
+    HTTP source has different checksum
+    
+    Same contents, though....
+
+commit e58045c0cb9c0c41743e10b953df77271514a740
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sun Mar 4 13:33:02 2018 +0000
+
+    download source from HTTP instead of FTP
+    
+    @pkgw and Travis were both having weird problems with the FTP source
+
+commit 1779aff818c222d3056f510a3ac00ed0ffcc6197
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Mar 3 13:19:04 2018 -0500
+
+    Try adding curl as a new build/run depedency.
+    
+    I can't test locally because I get a conda-build error relating to the ATNF
+    FTP server's use of exotic status codes that conda-build's FTP client can't
+    handle. But seemingly it works when run on Circle CI since the initial PR got
+    past the download ...
+
+commit 10e65a22537e8804bb04c41d9e9dcd82951fb85f
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sat Mar 3 15:45:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit d66900554eeed619d59d136adf905f0f63150f90
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Sat Mar 3 15:38:55 2018 +0000
+
+    update to 3.420
+
+commit 5b82d15941f13c3f3c7eb67e34fcfd5625d802ec
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:41:52 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f78cec922ca8917033b9eebf4e96cf4b5167b3c9
+Merge: 715ba76 ea6df0c
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Mar 28 11:47:09 2017 -0400
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit ea6df0c8171aec191ace99c6219fee6017224d90
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Mar 26 01:39:19 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.2.2.
+
+commit 715ba76e5c75eac876ec4c59a9f6bc7e6bfc34d1
+Merge: beaf5db be5f860
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Feb 4 16:41:20 2017 -0500
+
+    Merge pull request #3 from pkgw/pr-rerender-reentrant
+    
+    Reentrant, shared library, rerender
+
+commit be5f8605e18c05ec441aa527564827d04f997693
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Feb 4 16:06:23 2017 -0500
+
+    Tidy up some of the files we install.
+
+commit a9203e050375b9a6351e9ea8e898b697959873c3
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Feb 4 15:59:06 2017 -0500
+
+    Attempt to fix OSX build when "reentrant" bits are enabled.
+
+commit 2179553ad8ded1f5426d6f917d6e9d308e9a9075
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Feb 4 14:43:34 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit b413f465d62ab8caf35ff1b004891f0ed4bb53d1
+Author: Simon Conseil <contact@saimon.org>
+Date:   Fri Feb 3 10:01:23 2017 +0100
+
+    Update osx_image for Travis
+
+commit 9d835fa417401fbe6efebf128fc1fd673e5d0b07
+Author: Simon Conseil <contact@saimon.org>
+Date:   Thu Feb 2 17:19:59 2017 +0100
+
+    Add tests as requested
+
+commit b8d0b52a357e1e1f6a15f120d32d48d6dd205264
+Author: Simon Conseil <contact@saimon.org>
+Date:   Thu Feb 2 17:18:21 2017 +0100
+
+    Build shared library after the utils binaries
+
+commit d7046fa2f31ea9935ed08a264a3ee28559b05abf
+Author: Simon Conseil <contact@saimon.org>
+Date:   Thu Feb 2 16:40:17 2017 +0100
+
+    Add --enable-reentrant flag and build shared library
+    
+    --enable-reentrant is needed for parallel programs (OpenMP).
+
+commit beaf5db53d07561514dd38785cdf0cea7dde7056
+Merge: 5a1a9f3 c6b8140
+Author: Peter Williams <peter@newton.cx>
+Date:   Tue Jan 3 00:18:05 2017 -0500
+
+    Merge pull request #1 from pkgw/long-prefix
+    
+    Force use of conda-build 2.x for long prefix build; turns out that the cfitsio configure script does some strange stuff that we need to work around to get the right flags to the linker on OSX.
+
+commit c6b814098ee0f5575f7a234498e77c6d201baeb0
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Jan 2 23:53:55 2017 -0500
+
+    Work around strange configure choices to get long-path OSX build to work.
+    
+    For some reason the configure.in explicitly writes: LDFLAGS="$CFLAGS"! That is
+    just bizarre.
+
+commit abfdc8c6d914d90b5db72fafaeb14c0ac109f1c7
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Jan 2 23:45:22 2017 -0500
+
+    Force use of conda-build 2.x for long prefix build
+    
+    Manual tweaking to get a long-prefix build while the conda-build 2.x
+    transition is in the works.
+
+commit 5a1a9f3f0dbc8b0d75273057a4409514a0de5920
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Dec 22 02:10:49 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit eb28f7fddef688387bec176da8f2dce59faed6e3
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Dec 21 19:38:05 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit c7a5a7aa37a64870f8e5544a3d359e593c9674fb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Dec 21 18:56:35 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 90877d2b194ccd8649329df174359bd163ced434
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Dec 21 18:53:42 2016 +0000
+
+    Initial feedstock commit with conda-smithy 1.7.0.
